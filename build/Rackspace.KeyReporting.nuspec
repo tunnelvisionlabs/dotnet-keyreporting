@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata minClientVersion="2.7">
+    <id>Rackspace.KeyReporting</id>
+    <version>0.0.0</version>
+    <authors>Sam Harwell</authors>
+    <owners>Sam Harwell</owners>
+    <title>MSBuild Strong Name Key Reporting</title>
+    <summary>An MSBuild extension which provides friendly error messages for users that need to generate a local strong name key.</summary>
+    <description>An MSBuild extension which provides friendly error messages for users that need to generate a local strong name key.</description>
+    <language>en-us</language>
+    <projectUrl>https://github.com/rackerlabs/dotnet-keyreporting</projectUrl>
+    <licenseUrl>https://raw.github.com/rackerlabs/dotnet-keyreporting/v$version$/LICENSE</licenseUrl>
+    <copyright>Copyright © Sam Harwell 2014</copyright>
+    <releaseNotes>https://github.com/rackerlabs/dotnet-keyreporting/releases/v$version$</releaseNotes>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <developmentDependency>true</developmentDependency>
+    <tags>msbuild</tags>
+  </metadata>
+  <files>
+    <!-- Build Configuration -->
+    <file src=".\Rackspace.KeyReporting.targets" target="build\Rackspace.KeyReporting.targets"/>
+  </files>
+</package>
